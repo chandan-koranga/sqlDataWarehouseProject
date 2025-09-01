@@ -1,4 +1,4 @@
-/*
+
 =============================================================
 Create Database and Schemas
 =============================================================
@@ -11,18 +11,18 @@ WARNING:
     Running this script will drop the entire 'DataWarehouse' database if it exists. 
     All data in the database will be permanently deleted. Proceed with caution 
     and ensure you have proper backups before running this script.
-*/
 
--- Drop database if it already exists
+
+Drop database if it already exists
 DROP DATABASE IF EXISTS "DataWarehouse";
 
--- Create a fresh database
+Create a fresh database
 CREATE DATABASE "DataWarehouse";
 
--- Switch to the new database
+Switch to the new database
 \c DataWarehouse;
 
--- Create schemas inside the new database
+Create schemas inside the new database
 CREATE SCHEMA bronze;
 CREATE SCHEMA silver;
 CREATE SCHEMA gold;
