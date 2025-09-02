@@ -2,8 +2,8 @@ DROP TABLE IF EXISTS silver."crmCustInfo";
 CREATE TABLE silver."crmCustInfo" (
     "cstId"             INT,
     "cstKey"            VARCHAR(50),
-    "cstFirstname"      VARCHAR(50),
-    "cstLastname"       VARCHAR(50),
+    "cstFirstName"      VARCHAR(50),
+    "cstLastName"       VARCHAR(50),
     "cstMaritalStatus"  VARCHAR(50),
     "cstGndr"           VARCHAR(50),
     "cstCreateDate"     DATE,
