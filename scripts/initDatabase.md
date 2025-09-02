@@ -9,13 +9,13 @@ Script Purpose:
 
 
 --Drop database if it already exists
-## DROP DATABASE IF EXISTS "DataWarehouse";
+**DROP DATABASE IF EXISTS "DataWarehouse";**
 
 --Create a fresh database
-## CREATE DATABASE "DataWarehouse";
+**CREATE DATABASE "DataWarehouse";**
 
 --Switch to the new database
-## \c DataWarehouse;
+**\c DataWarehouse;**
 
 Create schemas inside the new database
 
