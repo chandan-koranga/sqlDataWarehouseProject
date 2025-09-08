@@ -1,4 +1,4 @@
-# Data Catalog with Lineage Context (camelCase)
+# Data flow
 
 ---
 
@@ -15,7 +15,7 @@
 
 ---
 
-## ⚪ Silver Layer (Cleaned, Standardized Data)
+## Silver Layer (Cleaned, Standardized Data)
 
 * **crmSalesDetails** → Cleaned sales with validated sales amount, corrected dates.
 * **crmCustInfo** → Standardized customers (names, gender, marital status).
